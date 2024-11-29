@@ -1,0 +1,88 @@
+/* Define a aparência geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Alternativa de fonte */
+}
+.link-voltar button{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+    margin-top: 40px;
+    margin-left: 120px;
+    position: static;
+
+}
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 200px;
+    
+}
+.sobrebo{
+    margin: 0;
+    padding: 0;
+}
+.student {
+    background-color: rgb(78, 78, 78);
+    border: 1px solid #508dff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.student h2 {
+    color: #008cff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.student p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+body {
+    background-color: rgb(0, 0, 0); /* Fundo branco */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Máscara leve preta */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo do ícone de usuário */
+.icone-usuario {
+    width: 32px; /* Tamanho do ícone */
+    height: 32px;
+    border-radius: 50%; /* Deixa o ícone circular */
+    cursor: pointer; /* Cursor de botão ao passar o mouse */
+    background-color: white; /* Fundo do ícone */
+    padding: 4px; /* Espaçamento interno para o ícone */
+    margin-top: 5px;
+    margin-left: 15px;;
+}
+
+.icone-usuario:hover {
+    border-color: #0056b3; /* Cor da borda no hover */
+}
+.pesicon{
+    width: 150px;
+    height: 150px;
+}

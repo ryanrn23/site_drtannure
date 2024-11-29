@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="stylecontato.css">
+    
+</head>
+<body> 
+    <section class="formulario">
+        <div class="link-voltar">
+            <a href="index.html"><button>◄</button></a>
+        </div>
+        <div class="interface">
+            <h2 class="titulo">FALE <span>CONOSCO.</span></h2>
+    
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nome Completo:" required>
+                <input type="email" id="email" placeholder="E-mail:" required>
+                <input type="tel" id="phone" placeholder="Telefone:" required>
+                <textarea id="message" placeholder="Mensagem:" rows="5" required></textarea>
+                <div class="btn-enviar">
+                    <button type="button" onclick="sendToWhatsApp()">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+

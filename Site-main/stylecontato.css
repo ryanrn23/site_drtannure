@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+.formulario {
+    background: #1c1c1c; /* Fundo cinza escuro para contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.interface input,
+.interface textarea {
+    width: 380px; 
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: #333;
+    color: #fff; /* Texto branco */
+}
+
+.interface input:focus,
+.interface textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn-enviar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-enviar button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-enviar button:hover {
+    background-color: #218838;
+}
+
+.link-voltar {
+    margin-bottom: 15px;
+}
+
+.link-voltar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-voltar button:hover {
+    background-color: #0056b3;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.titulo span {
+    color: #007bff;
+}
